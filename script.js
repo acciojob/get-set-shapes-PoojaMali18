@@ -6,17 +6,17 @@ class Rectangle
 		this.width=width;
 		this.height=height;
 	}
-	get width()
+	get getWidth()
 	{
 	return this.width;
 	}
 
-	get height()
+	get getHeight()
 	{
 	return this.height;
 	}
 
-	get Area()
+	getArea()
 	{
 		return this.width*this.height;
 	}
